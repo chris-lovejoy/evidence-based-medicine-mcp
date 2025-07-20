@@ -25,45 +25,45 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 1. Clone this repository
 
-```
-git clone https://github.com/chris-lovejoy/evidence-based-medicine-mcp
-cd evidence-based-medicine-mcp
-```
+    ```
+    git clone https://github.com/chris-lovejoy/evidence-based-medicine-mcp
+    cd evidence-based-medicine-mcp
+    ```
 
 2. Connect to the MCP server
 
-Copy the below json with the appropriate {{PATH}} values:
+    Copy the below json with the appropriate {{PATH}} values:
 
-```
-{
-    "mcpServers": {
-        "evidence-based-medicine-mcp": {
-            "command": "{{PATH_TO_NPX}}",  // Run 'which npx' and place the output here
-            "args": [
-                "-y",
-                "tsx",
-                "{{PATH_TO_SRC}}/evidence-based-medicine-mcp/index.ts" // cd into the repo and run 'pwd'
-            ]
-        }
-    }  
-}
-```
+    ```
+    {
+        "mcpServers": {
+            "evidence-based-medicine-mcp": {
+                "command": "{{PATH_TO_NPX}}",  // Run 'which npx' and place the output here
+                "args": [
+                    "-y",
+                    "tsx",
+                    "{{PATH_TO_SRC}}/evidence-based-medicine-mcp/index.ts" // cd into the repo and run 'pwd'
+                ]
+            }
+        }  
+    }
+    ```
 
-For Claude, save this as `claude_desktop_config.json` in your Claude Desktop configuration directory at:
+    For Claude, save this as `claude_desktop_config.json` in your Claude Desktop configuration directory at:
 
-```
-~/Library/Application Support/Claude/claude_desktop_config.json
-```
+    ```
+    ~/Library/Application Support/Claude/claude_desktop_config.json
+    ```
 
-For Cursor, save this as `mcp.json` in your Cursor configuration directory at:
+    For Cursor, save this as `mcp.json` in your Cursor configuration directory at:
 
-```
-~/.cursor/mcp.json
-```
+    ```
+    ~/.cursor/mcp.json
+    ```
 
 3. Restart Claude Desktop / Cursor
 
-Open Claude Desktop / restart Cursor and you should now see Evidence Based Medicine MCP as an available integration.
+    Open Claude Desktop / restart Cursor and you should now see Evidence Based Medicine MCP as an available integration.
 
 
 
