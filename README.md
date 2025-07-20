@@ -8,9 +8,9 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 
 
-# Installation
+## Installation
 
-## Prerequisites
+### Prerequisites
 
 - **Node.js** (version 18.0.0 or higher)
 - **npm** (comes with Node.js) or **yarn** for package management
@@ -21,7 +21,7 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 
 
-## Steps
+### Steps
 
 1. **Clone this repository**
 
@@ -67,9 +67,9 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 
 
-# How to Use
+## How to Use
 
-## Getting the LLM to use the MCP Server
+### Getting the LLM to use the MCP Server
 
 This MCP server will typically be used by the LLM whenever a user asks for medical advice or mentions they want responses to be grounded on up-to-date medical information.
 
@@ -78,7 +78,7 @@ For example, questions such as "Please give me medical advice about X" or "What 
 However, asking for a direct answer (e.g., "What should for my back pain?") typically does not - the LLM opts to answer the question directly.
 
 
-# How it Works
+## How it Works
 
 The server operates by using the following tools in sequence:
 
@@ -93,7 +93,7 @@ The server operates by using the following tools in sequence:
     - Returns full article content for all articles selected by the LLM, while advising the LLM to ground it's answer in the evidence and include URLs to all the original articles
 
 
-# Potential Future Work
+## Potential Future Work
 
 This MCP Server is anchored on the comprehensive resources available from [Patient.info](https://patient.info/). Additional authoritative sources could be incorporated, including [UpToDate](https://www.uptodate.com/), [Cochrane Reviews](https://www.cochranelibrary.com/), [BMJ Best Practice](https://bestpractice.bmj.com/) and others.
 
