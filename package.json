@@ -1,0 +1,27 @@
+{
+    "name": "evidence-based-medicine-mcp",
+    "version": "0.0.1",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "start": "node --loader ts-node/esm index.ts",
+        "dev": "tsx index.ts",
+        "inspect": "npx @modelcontextprotocol/inspector tsx index.ts"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/inspector": "^0.15.0",
+        "@modelcontextprotocol/sdk": "^1.15.1",
+        "axios": "^1.10.0",
+        "cheerio": "^1.1.0",
+        "puppeteer": "^24.12.1",
+        "zod": "^3.25.76"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.3"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
