@@ -1,6 +1,6 @@
 # Evidence Based Medicine MCP
 
-This is a Model Context Protocol (MCP) server for grounding LLM answers in up-to-date evidence-based medicine.
+This is a Model Context Protocol (MCP) server for grounding LLM answers in up-to-date, evidence-based medical information.
 
 With this you can ask an LLM medical queries and receive answers which are based solely on validated, evidence-based medical information, with references to the original source material.
 
