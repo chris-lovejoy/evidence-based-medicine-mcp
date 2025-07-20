@@ -47,7 +47,7 @@ Copy the below json with the appropriate {{PATH}} values:
         }
     }  
 }
-
+```
 
 For Claude, save this as `claude_desktop_config.json` in your Claude Desktop configuration directory at:
 
