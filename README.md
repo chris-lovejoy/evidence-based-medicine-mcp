@@ -80,8 +80,17 @@ However, asking for a direct answer (e.g., "What should for my back pain?") typi
 
 # How it Works
 
-<!-- Mention the tools it has available etc. -->
-<!-- Potentially a diagram of the back and forth. -->
+The server operates by using the following tools in sequence:
+
+1. `return_available_topics`
+    - Shows all the high-level topics for which guidance exists, enabling the LLM to select the most relevant topics to identify articles/guides from
+
+
+2. `get_articles_for_topic`
+    - Returns all article titles and URLs for selected topics
+
+3. `return_full_content_for_articles`
+    - Returns full article content for all articles selected by the LLM, while advising the LLM to ground it's answer in the evidence and include URLs to all the original articles
 
 
 # Potential Future Work
