@@ -73,23 +73,18 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 This MCP server will typically be used by the LLM whenever a user asks for medical advice or mentions they want responses to be grounded on up-to-date medical information.
 
-For example, the statement "Please give me medical advice about X" will typically trigger it.
+For example, questions such as "Please give me medical advice about X" or "What are the treatment options for my diabetes, based on the medical evidence" will typically trigger it.
 
 However, asking for a direct answer (e.g., "What should for my back pain?") typically does not - the LLM opts to answer the question directly.
 
 
-
 # How it Works
 
-
-<!-- Some note of how it currently just uses Patient.info -->
-
-
+<!-- Mention the tools it has available etc. -->
+<!-- Potentially a diagram of the back and forth. -->
 
 
+# Potential Future Work
 
-<!-- Potential improvements / future work -->
-
-<!-- This has implemented to use Patient.Info - could be extended to include alternatives in future -->
-
+This MCP Server is anchored on the comprehensive resources available from [Patient.info](https://patient.info/). Additional authoritative sources could be incorporated, including [UpToDate](https://www.uptodate.com/), [Cochrane Reviews](https://www.cochranelibrary.com/), [BMJ Best Practice](https://bestpractice.bmj.com/) and others.
 
