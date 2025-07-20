@@ -23,14 +23,14 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 ## Steps
 
-1. Clone this repository
+1. **Clone this repository**
 
     ```
     git clone https://github.com/chris-lovejoy/evidence-based-medicine-mcp
     cd evidence-based-medicine-mcp
     ```
 
-2. Connect to the MCP server
+2. **Connect to the MCP server**
 
     Copy the below json with the appropriate {{PATH}} values:
 
@@ -61,13 +61,26 @@ With this you can ask an LLM medical queries and receive answers which are based
     ~/.cursor/mcp.json
     ```
 
-3. Restart Claude Desktop / Cursor
+3. **Restart Claude Desktop / Cursor**
 
     Open Claude Desktop / restart Cursor and you should now see Evidence Based Medicine MCP as an available integration.
 
 
 
-<!-- # [how it works] -->
+# How to Use
+
+## Getting the LLM to use the MCP Server
+
+This MCP server will typically be used by the LLM whenever a user asks for medical advice or mentions they want responses to be grounded on up-to-date medical information.
+
+For example, the statement "Please give me medical advice about X" will typically trigger it.
+
+However, asking for a direct answer (e.g., "What should for my back pain?") typically does not - the LLM opts to answer the question directly.
+
+
+
+# How it Works
+
 
 <!-- Some note of how it currently just uses Patient.info -->
 
