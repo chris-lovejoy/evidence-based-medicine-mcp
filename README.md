@@ -4,12 +4,13 @@ This is a Model Context Protocol (MCP) server for grounding LLM answers in up-to
 
 With this you can ask an LLM medical queries and receive answers which are based solely on validated, evidence-based medical information, with references to the original source material.
 
-> [!NOTE]
-> This is not a replacement for medical advice from a trained medical professional.
-
 ![](example-part1.png)
 
 ![](example-part2.png)
+
+
+> [!NOTE]
+> This is not a replacement for medical advice from a trained medical professional.
 
 
 ## Installation
