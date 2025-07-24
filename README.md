@@ -1,5 +1,7 @@
 # Evidence Based Medicine MCP
 
+[![smithery badge](https://smithery.ai/badge/@chris-lovejoy/evidence-based-medicine-mcp)](https://smithery.ai/server/@chris-lovejoy/evidence-based-medicine-mcp)
+
 This is a Model Context Protocol (MCP) server for grounding LLM answers in up-to-date, evidence-based medical information.
 
 With this you can ask an LLM medical queries and receive answers which are based solely on validated, evidence-based medical information, with references to the original source material.
@@ -14,6 +16,14 @@ With this you can ask an LLM medical queries and receive answers which are based
 
 
 ## Installation
+
+### Installing via Smithery
+
+To install evidence-based-medicine-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@chris-lovejoy/evidence-based-medicine-mcp):
+
+```bash
+npx -y @smithery/cli install @chris-lovejoy/evidence-based-medicine-mcp --client claude
+```
 
 ### Prerequisites
 
@@ -104,4 +114,3 @@ The decision was made to use resources from [Patient.Info](https://patient.info/
 ## Potential Future Work
 
 This MCP Server is anchored on the comprehensive resources available from [Patient.info](https://patient.info/). Additional authoritative sources could be incorporated, including [UpToDate](https://www.uptodate.com/), [Cochrane Reviews](https://www.cochranelibrary.com/), [BMJ Best Practice](https://bestpractice.bmj.com/) and others.
-
