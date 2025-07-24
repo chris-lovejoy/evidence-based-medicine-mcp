@@ -98,8 +98,7 @@ The server operates by using the following tools in sequence:
     - Returns full article content for all articles selected by the LLM, while advising the LLM to ground it's answer in the evidence and include URLs to all the original articles
 
 
-<!-- TODO: explain that uses Patient.Info, as this is a site that is both comprehensive whilst also being free/unrestricted and enabling use -->
-
+The decision was made to use resources from [Patient.Info](https://patient.info/) because it is comprehensive, trusted by doctors and freely available for use. 
 
 
 ## Potential Future Work
