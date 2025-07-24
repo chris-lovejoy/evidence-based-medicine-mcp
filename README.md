@@ -4,8 +4,12 @@ This is a Model Context Protocol (MCP) server for grounding LLM answers in up-to
 
 With this you can ask an LLM medical queries and receive answers which are based solely on validated, evidence-based medical information, with references to the original source material.
 
-<!-- TODO: add example of how it can work. With screenshot / short video -->
+> [!NOTE]
+> This is not a replacement for medical advice from a trained medical professional.
 
+![](example-part1.png)
+
+![](example-part2.png)
 
 
 ## Installation
@@ -91,6 +95,10 @@ The server operates by using the following tools in sequence:
 
 3. `return_full_content_for_articles`
     - Returns full article content for all articles selected by the LLM, while advising the LLM to ground it's answer in the evidence and include URLs to all the original articles
+
+
+<!-- TODO: explain that uses Patient.Info, as this is a site that is both comprehensive whilst also being free/unrestricted and enabling use -->
+
 
 
 ## Potential Future Work
